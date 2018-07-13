@@ -1,0 +1,12 @@
+{
+  "name": "frontendfirstdevelopment",
+  "version": "0.0.1",
+  "description": "Solve friction between backend and frontend with an API mocking server, GraphQL, automatic server side rendering and a schema first headless CMS of your choice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["frontend", "development", "graphql", "server side rendering", "mocking"],
+  "author": "Fredi Bach",
+  "license": "ISC"
+}
