@@ -54,10 +54,11 @@ mark {
   height: 800px;
   background: #eeeeee;
   border-bottom: 1px #fbfbfb solid;
-  -webkit-transform:
-    translateY(180px)
-    translateX(-2840px)
-    rotate(-76deg); 
+  -webkit-transform: translateY(180px) translateX(-2840px) rotate(-76deg); 
+  -moz-transform: translateY(180px) translateX(-2840px) rotate(-76deg); 
+  -ms-transform: translateY(180px) translateX(-2840px) rotate(-76deg); 
+  -o-transform: translateY(180px) translateX(-2840px) rotate(-76deg); 
+  transform: translateY(180px) translateX(-2840px) rotate(-76deg); 
   position: absolute;
   z-index: -1;
 }
@@ -67,10 +68,11 @@ mark {
   height: 800px;
   background: #ade;
   border-bottom: 1px #6bc solid;
-  -webkit-transform:
-    translateY(180px)
-    translateX(-3460px)
-    rotate(-76deg); 
+  -webkit-transform: translateY(180px) translateX(-3460px) rotate(-76deg); 
+  -moz-transform: translateY(180px) translateX(-3460px) rotate(-76deg);  
+  -ms-transform: translateY(180px) translateX(-3460px) rotate(-76deg); 
+  -o-transform: translateY(180px) translateX(-3460px) rotate(-76deg);  
+  transform: translateY(180px) translateX(-3460px) rotate(-76deg); 
   position: absolute;
   z-index: -1;
 }
