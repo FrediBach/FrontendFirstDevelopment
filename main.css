@@ -222,6 +222,40 @@ article b.arrow {
     padding: 0;
 }
 
+blockquote {
+  font-size: 2rem;
+  line-height: 140%;
+	position: relative;
+	margin: 80px 0;
+  padding: 20px 90px;
+  color:rgba(73, 159, 193, 0.8);
+  text-align: center;
+  letter-spacing: 2px;
+  background: rgba(133, 219, 253, 0.1);
+  border-radius: 20px;
+}
+
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: rgba(103, 189, 223, 0.6);
+	font-size: 8rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+blockquote:before {
+	content: '“';
+	left: 1rem;
+	top: 1.5rem;
+}
+
+blockquote:after {
+	content: '”';
+	right: 1rem;
+	bottom: -5rem;
+}
+
 footer {
     width: 200px;
     color: #333;
