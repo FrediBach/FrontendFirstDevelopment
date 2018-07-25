@@ -265,6 +265,19 @@
                         <a href="https://github.com/marmelab/json-graphql-server">https://github.com/marmelab/json-graphql-server</a>
                     </li>
                     <li>
+                        <b>EasyGraphQL Mock</b> (schema first mocking)
+                        <span class='arrow'>
+                            <svg width="11px" height="10px" viewBox="0 0 11 10" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="right-arrow">
+                                    <path d="M1.77635684e-14,5 L9,5" id="rod" stroke="#000000" stroke-width="2"></path>
+                                    <path d="M11,5 L6,0.5 L6,9.5 L11,5 Z" id="point" fill="#000000"></path>
+                                </g>
+                            </svg>
+                        </span>
+                        <a href="https://github.com/EasyGraphQL/easygraphql-mock">https://github.com/EasyGraphQL/easygraphql-mock</a>
+                    </li>
+                    <li>
                         <b>GarphQL Faker</b> (faking data based on directives)
                         <span class='arrow'>
                             <svg width="11px" height="10px" viewBox="0 0 11 10" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -341,6 +354,9 @@
 
         <p>I would personally stick with Apollo, as it integrates nicely with server side rendering frameworks, as we’ll see
             next and has it’s own caching proxy solution that you can use out of the box.</p>
+
+        <p>Now what if I need to integrate existing REST API endpoints? Maybe even external third party ones that I can’t port to GraphQL? With Apollo this is actually not a big issue.  
+            Thanks to Apollo Link Rest, you can easily use REST APIs together with GraphQL, in the same queries.</p>
 
         <p>In case you don’t expect to use a CMS to manage the data, you can relatively easily setup a real GraphQL server.
             Have a look at GraphQL engines, that make it possible to setup real database driven endpoints without too much
