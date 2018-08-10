@@ -279,5 +279,6 @@ footer a:hover {
 }
 
 img {
-  margin: 25px 75px;
+  margin: 50px 0;
+  width: 100%;
 }
