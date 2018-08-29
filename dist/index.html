@@ -398,17 +398,25 @@
 
         <h3>Headless CMS</h3>
 
-        <p>If you need a strong admin interface for content management, with approval workflows, the flexibility to integrate
-            other services and other enterprise requirements, you normally don’t build everything yourself from scratch,
-            you choose an enterprise level CMS that can handle all of that stuff already.
-            <mark>Sadly all the currently most popular CMS solutions on the market aren’t very well suited for a frontend first
-                workflow.</mark> But thankfully, new contenders are entering the market and are now realising the potential
-            of a schema based GraphQL API approach. Here’s a list of possible options:</p>
+        <p>If you need a strong admin interface for content management, with approval workflows, the flexibility to integrate 
+            other services and other enterprise requirements, you normally don’t build everything yourself from scratch, 
+            you choose an enterprise level CMS that can handle all of that stuff already. 
+            <mark>Sadly all the currently most popular CMS solutions on the market aren’t very well suited for a frontend first 
+                workflow.</mark> But thankfully, new contenders are entering the market and are now realising the potential 
+            of a schema based GraphQL API approach. Directus for example is completely database agnostic, so you could 
+            write your own connector to, for example Hasura, our current GraphQL engine favorite, and manage the content 
+            decoupled from the database/API server. This would even solve the issue that Directus doesn't have a GraphQL API, as 
+            you would use the API from the Hasura Engine.</p>
+            <p>Here’s an incomplete list of possible options:</p>
 
         <ul>
             <li>
                 <b>Contentful</b>:
                 <a href="https://www.contentful.com/">Contentful: Content Infrastructure for Digital Teams</a>
+            </li>
+            <li>
+                <b>Directus</b>:
+                <a href="https://getdirectus.com/">Directus - Open-Source Headless CMS</a>
             </li>
             <li>
                 <b>GraphCMS</b>:
