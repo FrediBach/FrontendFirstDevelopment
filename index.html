@@ -408,10 +408,10 @@
             you choose an enterprise level CMS that can handle all of that stuff already. 
             <mark>Sadly all the currently most popular CMS solutions on the market aren’t very well suited for a frontend first 
                 workflow.</mark> But thankfully, new contenders are entering the market and are now realising the potential 
-            of a schema based GraphQL API approach. Directus for example is completely database agnostic, so you could 
+            of a schema based GraphQL API approach. Directus for example is almost database agnostic, so you could 
             write your own connector to, for example Hasura, our current GraphQL engine favorite, and manage the content 
             decoupled from the database/API server. This would even solve the issue that Directus doesn't have a GraphQL API, as 
-            you would use the API from the Hasura Engine.</p>
+            you would use the API from the Hasura Engine. It's not perfect, but we're not that far away from an optimal solution, either.</p>
             <p>Here’s an incomplete list of possible options:</p>
 
         <ul>
@@ -612,7 +612,7 @@
         </p>
 
         <p>Looking at the available CMS solutions, it would be nice if you could import your sample data directly, or at least
-            the generated schema, for a real schema first experience.</p>
+            the generated schema and than use the database from your GraphQL engine, for a real schema first experience.</p>
 
         <p>Talking about schema first development. You may wonder why a sample data first and not schema first approach is described
             here. Using schema directives to tell the server how to generate sample data could look like this:</p>
